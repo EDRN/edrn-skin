@@ -29,10 +29,10 @@ div#edrninformatics {
  */
 div#edrnlogo {
 	position:absolute;
-	top:0px;
+	top:-1px;
 	left:0px;
 	background:url(../img/edrnlogo-bigger-red2.gif) scroll -2px 1px no-repeat;
-	height:67px;
+	height:68px;
 	width:500px;
 }
 /**
@@ -44,7 +44,7 @@ div#edrn-dna {
 	top:0px;
 	right:0px;
 	height:67px;
-	width:260px;
+	width:290px;
 	background:url(../img/edrn_dna-bigger.jpg) scroll left top no-repeat;
 }
 
