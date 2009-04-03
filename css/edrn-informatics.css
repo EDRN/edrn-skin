@@ -35,6 +35,18 @@ div#edrnlogo {
 	height:67px;
 	width:500px;
 }
+/**
+ * DIV.EDRN-DNA
+ * This is the double-helix graphic
+ */
+div#edrn-dna {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:67px;
+	width:260px;
+	background:url(../img/edrn_dna-bigger.jpg) scroll left top no-repeat;
+}
 
 
 /**
@@ -43,10 +55,12 @@ div#edrnlogo {
  * of DIV.EDRNINFORMATICS.
  */
 h2.app-title {
+	position:absolute;
+	top:67px;
+	right:0px;
 	background-color:#555;
 	margin:0px;
-	margin-left:-5px;
-	margin-right:-5px;
+	width:100%;
 	margin-top:0px;
 	padding:5px;
 	padding-left:0px;
