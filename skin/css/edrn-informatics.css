@@ -24,6 +24,47 @@ div#edrninformatics {
 }
 
 /**
+ * DIV.CAS-HEADER
+ * This is the header that precedes application content. 
+ */
+div#cas-header {
+	position:relative;
+	height:56px;
+	padding:5px;
+	text-align:right;
+	border-bottom:solid 1px #000;
+	overflow:none;
+	background:url(../../../img/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
+	background-color:#000;
+}
+
+/**
+ * DIV.CAS-LOGO-LEFT
+ * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
+ */
+div#cas-logo-left {
+	position:absolute;
+	top:-1px;
+	left:0px;
+	background:url(../../../img/edrnlogo-bigger-red2.gif) scroll -2px 1px no-repeat;
+	height:68px;
+	width:500px;
+}
+/**
+ * DIV.CAS-LOGO-RIGHT
+ * This is the double-helix graphic
+ */
+div#cas-logo-right {
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:67px;
+	width:290px;
+	background:url(../../../img/edrn_dna-bigger.jpg) scroll left top no-repeat;
+}
+
+
+/**
  * DIV.EDRNLOGO
  * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
  */
