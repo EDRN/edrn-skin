@@ -5,7 +5,6 @@ html, body {
 	margin:0px;
 	background-color:#fff;
 	font-family:"Lucida Grande","Arial","Helvetica","Verdana","sans-serif";
-	font-size:14px;	
 }
 
 /**
@@ -24,57 +23,26 @@ div#edrninformatics {
 }
 
 /**
- * DIV.CAS-HEADER
- * This is the header that precedes application content. 
- */
-div#cas-header {
-	position:relative;
-	height:56px;
-	padding:5px;
-	text-align:right;
-	border-bottom:solid 1px #000;
-	overflow:none;
-	background:url(../../../img/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
-	background-color:#000;
-}
-
-/**
- * DIV.CAS-LOGO-LEFT
- * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
- */
-div#cas-logo-left {
-	position:absolute;
-	top:-1px;
-	left:0px;
-	background:url(../../../img/edrnlogo-bigger-red2.gif) scroll -2px 1px no-repeat;
-	height:68px;
-	width:500px;
-}
-/**
- * DIV.CAS-LOGO-RIGHT
- * This is the double-helix graphic
- */
-div#cas-logo-right {
-	position:absolute;
-	top:0px;
-	right:0px;
-	height:67px;
-	width:290px;
-	background:url(../../../img/edrn_dna-bigger.jpg) scroll left top no-repeat;
-}
-
-
-/**
  * DIV.EDRNLOGO
  * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
  */
 div#edrnlogo {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	position:absolute;
 	top:-1px;
 	left:0px;
-	background:url(../img/edrnlogo-bigger-red2.gif) scroll -2px 1px no-repeat;
+	background:url(../img/nci-small.jpg) scroll -2px 1px no-repeat;
 	height:68px;
-	width:500px;
+	width:365px;
+	padding-left:115px;
+	padding-top:6px;
+	color:#eee;
+	line-height:16px;
+	text-align:left;
+}
+div#edrnlogo span.smaller {
+	font-size:85%;
+	color:#bbb;	
 }
 /**
  * DIV.EDRN-DNA
@@ -99,18 +67,18 @@ h2.app-title {
 	position:absolute;
 	top:67px;
 	right:0px;
-	background-color:#555;
+	background-color:transparent;
 	margin:0px;
-	width:100%;
-	margin-top:0px;
+	width:50%;
 	padding:5px;
 	padding-left:0px;
-	color:#fff;
-	border-top:solid 1px #522;
-	border-bottom:solid 1px #300;
+	color:#722;
 	font-weight:normal;
-	font-size:15px;
-	letter-spacing:0.03em;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:0.00em;
+	text-transform:uppercase;
+	z-index:100;
 }
 
 /**
@@ -144,15 +112,15 @@ div.success  {
  */
 div.userdetails {
 	position:absolute;
-	top:102px;
+	top:95px;
 	right:5px;
-	color:#ecc;
+	color:#444;
 	font-size:75%;
 	z-index:10
 }
 div.userdetails a {
 	text-decoration:underline;
-	color:#ecc;	
+	color:#444;	
 }
 
 /** 
@@ -161,14 +129,15 @@ div.userdetails a {
  */
 div#breadcrumbs {
 	position:relative;
-	margin-top:30px;
+	margin-top:0px;
 	padding:4px;
 	padding-right:5px;
 	padding-left:5px;
-	border-top:solid 2px #700003;
+	border-top:solid 1px #700003;
+	border-bottom:solid 1px #700003;
 	padding-bottom:5px;
-	background-color:#900003;	
-	color:#fff;
+	background-color:#fff;	
+	color:#333;
 	font-size:85%;
 }
 div#breadcrumbs ul {
@@ -181,7 +150,7 @@ div#breadcrumbs ul li {
 }
 
 div#breadcrumbs ul li a {
-	color:#fff;
+	color:#222;
 	font-weight:normal;
 	text-decoration:underline;	
 }
