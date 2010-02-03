@@ -142,12 +142,20 @@ div.userdetails {
 	top:95px;
 	right:5px;
 	color:#444;
-	font-size:75%;
+	font-size:11px;
 	z-index:10
 }
 div.userdetails a {
 	text-decoration:underline;
 	color:#444;	
+}
+
+/**
+ Overrides required to enable user details to not be overlayed
+ on top of container for the staging/fm area
+**/
+div.container{
+	top:11px;
 }
 
 /** 
@@ -170,7 +178,7 @@ div#breadcrumbs {
 	padding-bottom:5px;
 	background-color:#fff;	
 	color:#333;
-	font-size:85%;
+	font-size:11px;
 }
 div#breadcrumbs ul {
 	list-style:none;
