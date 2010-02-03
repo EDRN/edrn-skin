@@ -38,7 +38,7 @@ div#edrninformatics.cas-header div.menu {
  * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
  */
 div#edrnlogo.cas-logo-left {
-	background:url(../../../img/edrnlogo-bigger-red2.gif) scroll -2px 1px no-repeat;
+	background:url(../../../img/nci-small.jpg) scroll -2px 1px no-repeat;
 }
 /**
  * DIV.CAS-LOGO-RIGHT
@@ -154,6 +154,11 @@ div.userdetails a {
  * DIV#BREADCRUMBS
  * This provides the area for breadcrumbs navigation links
  */
+ 
+div#breadcrumbs.cas-breadcrumbs a {
+	color:#333;
+}
+
 div#breadcrumbs {
 	position:relative;
 	margin-top:0px;
