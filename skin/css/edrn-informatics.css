@@ -135,6 +135,20 @@ div.success  {
 }
 
 /**
+ * DIV.NOTICE
+ * This provides a blue 'notice' box suitable for displaying
+ * notices messages.
+ */
+div.notice  {
+	padding:5px;
+	border:solid 1px #8df;
+	background-color:#7ce;	
+	margin-right:0px;
+	color:#000;
+}
+
+
+/**
  * DIV.USERDETAILS
  * This provides information about the login-status of the user.
  * It should live within div#edrninformatics
