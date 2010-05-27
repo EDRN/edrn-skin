@@ -1,10 +1,10 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 
 html, body {
 	padding:0px;
 	margin:0px;
 	background-color:#fff;
-	font-family:"Lucida Grande","Arial","Helvetica","Verdana","sans-serif";
+	font-family:"Lucida Grande","Arial","Helvetica","Verdana",sans-serif;
 }
 
 /**
@@ -17,7 +17,6 @@ div#edrninformatics {
 	padding:5px;
 	text-align:right;
 	border-bottom:solid 1px #000;
-	overflow:none;
 	background:url(../img/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
 	background-color:#000;
 }
