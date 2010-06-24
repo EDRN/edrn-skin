@@ -1,10 +1,55 @@
-@charset "UTF-8";
+@CHARSET "UTF-8";
 
 html, body {
 	padding:0px;
-	margin:0px;
+	margin:0px auto;
+	background:transparent url(../img/bg-body.gif) repeat-x scroll 0 0;
 	background-color:#fff;
-	font-family:"Lucida Grande","Arial","Helvetica","Verdana",sans-serif;
+	font-family:"Lucida Grande","Arial","Helvetica","Verdana","sans-serif";
+}
+
+/**
+ * DIV.NCIBANNER
+ * This is the red National Cancer Institute header bar
+ */
+div#ncibanner {
+	background:#a90101 none repeat;	
+	position:relative;
+}
+div#ncibanner-inner {
+	width:974px;
+	margin:0px auto;
+	position:relative;	
+}
+div.#ncibanner-inner a {
+	display:inline;	
+}
+h2.ncilogo, h2.nihlogo, h2.cdglogo, h2.dcplogo {
+	border-bottom:0 none;
+	display:block;
+	float:left;	
+	margin:0;
+	padding:0;
+	position:relative;
+	text-indent:-9999px;
+}
+
+h2.ncilogo {
+	background:transparent url(../img/l-nci.gif) no-repeat scroll 0 0;
+	height:43px;
+	width:278px;
+}
+h2.cdglogo {
+	background:transparent url(../img/l-cdg.gif) no-repeat scroll 0 0;
+	float:right;
+	height:43px;
+	width:90px;
+}
+h2.nihlogo {
+	background:transparent url(../img/l-nih.gif) no-repeat scroll 0 0;
+	float:right;
+	height:43px;
+	width:173px;
 }
 
 /**
@@ -13,12 +58,8 @@ html, body {
  */
 div#edrninformatics {
 	position:relative;
-	height:56px;
-	padding:5px;
-	text-align:right;
-	border-bottom:solid 1px #000;
-	background:url(../img/blackfade-syncd.jpg) scroll 0px 0px repeat-x;
-	background-color:#000;
+	margin:auto;
+	width:974px;
 }
 
 /**
@@ -54,18 +95,24 @@ div#edrn-dna.cas-logo-right {
  * This is the NCI/EDRN logo div which lives inside DIV.EDRNINFORMATICS.
  */
 div#edrnlogo {
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	position:absolute;
-	top:-1px;
-	left:0px;
-	background:url(../img/nci-small.jpg) scroll -2px 1px no-repeat;
 	height:68px;
-	width:365px;
-	padding-left:115px;
-	padding-top:6px;
-	color:#eee;
+	width:974px;
+	margin:0px auto;	
+}
+div#edrnlogo h1 {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding-top:22px;
 	line-height:16px;
 	text-align:left;
+	width:974px;
+	font-size:25px;
+	font-weight:normal;
+}
+div#edrnlogo h2 {
+	margin:-5px auto 16px auto;
+	font-size:13px;
+	font-weight:normal;
+	font-style:italic;
 }
 
 div#edrnlogo span.smaller {
@@ -93,13 +140,12 @@ div#edrn-dna {
  */
 h2.app-title {
 	position:absolute;
-	top:67px;
+	top:0px;
 	right:0px;
 	background-color:transparent;
 	margin:0px;
-	width:50%;
 	padding:5px;
-	padding-left:0px;
+	padding-right:0px;
 	color:#722;
 	font-weight:normal;
 	font-size:13px;
@@ -134,31 +180,17 @@ div.success  {
 }
 
 /**
- * DIV.NOTICE
- * This provides a blue 'notice' box suitable for displaying
- * notices messages.
- */
-div.notice  {
-	padding:5px;
-	border:solid 1px #8df;
-	background-color:#7ce;	
-	margin-right:0px;
-	color:#000;
-}
-
-
-/**
  * DIV.USERDETAILS
  * This provides information about the login-status of the user.
  * It should live within div#edrninformatics
  */
 div.userdetails {
-	position:absolute;
-	top:95px;
-	right:5px;
+	position:relative;
+	text-align:right;
+	width:974px;
+	margin:auto;
 	color:#444;
 	font-size:11px;
-	z-index:10
 }
 div.userdetails a {
 	text-decoration:underline;
@@ -184,7 +216,7 @@ div#breadcrumbs.cas-breadcrumbs a {
 
 div#breadcrumbs {
 	position:relative;
-	margin-top:0px;
+	margin-top:2px;
 	padding:4px;
 	padding-right:5px;
 	padding-left:5px;
@@ -193,7 +225,7 @@ div#breadcrumbs {
 	padding-bottom:5px;
 	background-color:#fff;	
 	color:#333;
-	font-size:12px;
+	font-size:85%;
 }
 div#breadcrumbs ul {
 	list-style:none;
