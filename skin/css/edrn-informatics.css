@@ -116,15 +116,15 @@ div#edrnlogo h1 {
 	line-height:16px;
 	text-align:left;
 	width:974px;
-	font-size:25px;
+	font-size:24px;
 	font-weight:normal;
 }
 div#edrnlogo h2 {
 	margin:-10px auto 16px auto;
-	font-size:13px;
+	font-size:12px;
 	font-weight:normal;
 	font-style:italic;
-	color:#333;
+	color:#222;
 }
 
 div#edrnlogo span.smaller {
