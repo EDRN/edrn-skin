@@ -110,13 +110,22 @@ div#edrnlogo {
 	width:974px;
 	margin:0px auto;	
 }
+img#edrnlogo-logo {
+	width:64px;
+	margin-top:-25px;
+	padding:3px;
+	margin-right:5px;
+	vertical-align:top;
+	float:left;
+	border:solid 1px #400003;	
+}
 div#edrnlogo h1 {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	padding-top:16px;
+	padding-top:25px;
 	line-height:16px;
 	text-align:left;
 	width:974px;
-	font-size:24px;
+	font-size:31px;
 	font-weight:normal;
 }
 div#edrnlogo h2 {
@@ -232,7 +241,7 @@ div#breadcrumbs {
 	padding:4px;
 	padding-right:5px;
 	padding-left:5px;
-	border-top:solid 1px #700003;
+	border-top:solid 0px #700003;
 	border-bottom:solid 1px #700003;
 	padding-bottom:5px;
 	background-color:#fff;	
