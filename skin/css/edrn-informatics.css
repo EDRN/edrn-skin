@@ -123,18 +123,23 @@ img#edrnlogo-logo {
 div#edrnlogo h1.header-title {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	padding-top:25px;
+	padding-bottom:15px;
+	margin-top:15px;
 	line-height:16px;
 	text-align:left;
 	width:974px;
 	font-size:31px;
 	font-weight:bold;
+	border:none;
 }
 div#edrnlogo h2.header-title {
+	padding:auto;
 	margin:-10px auto 16px auto;
 	font-size:12px;
 	font-weight:normal;
 	font-style:italic;
 	color:#222;
+	border:none;
 }
 
 div#edrnlogo span.smaller {

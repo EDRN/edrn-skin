@@ -6,7 +6,11 @@
  */
 
 #edrnlogo {
-	font-size:14px;
+	font-size:28px;
+}
+h1#firstHeading {
+	font-size:18px;
+	margin-top:45px;
 }
 #edrninformatics h2 {
 	border-bottom:none;
@@ -15,6 +19,7 @@
 #content {
 	padding: 0 1em 1em 12.2em;
 	margin: 0;
+	border:none;
 }
 
 
@@ -27,11 +32,11 @@
 }
 
 #p-personal {
-	margin-top:100px;		/* replace the edrn-skin login details*/
+	margin-top:-5px;		/* replace the edrn-skin login details*/
 	z-index:10;
 }
 #p-personal ul {
-	padding-right:1em;		/* align things with the page rhs */
+	padding-right:0em;		/* align things with the page rhs */
 }
 
 #p-db, #p-navigation, #p-tb  {
@@ -41,11 +46,15 @@
 
 #p-cactions .pBody {
 	position:absolute;
-	right:0px;
+	left:0px;
 	top:3px;
 	z-index:10;
-	margin-top:100px;
+	margin-top:20px;
+	font-size:90%;
 }
 #p-navigation {
-	margin-top:47px;
+	margin-top:0px;
+}
+big {
+	font-size:115%;
 }
