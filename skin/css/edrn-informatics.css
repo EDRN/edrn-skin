@@ -59,7 +59,7 @@ h2.dcplogo {
 	background:transparent url(../img/l-dcp.gif) no-repeat scroll 0 0;
 	float:right;
 	height:23px;
-	margin:-65px -12px 16px;
+	margin:-45px -12px 16px;
 	width:164px;
 }
 
@@ -112,12 +112,12 @@ div#edrnlogo {
 }
 img#edrnlogo-logo {
 	width:64px;
-	margin-top:-25px;
+	margin-top:-20px;
 	padding:3px;
 	margin-right:5px;
 	vertical-align:top;
 	float:left;
-	border:solid 1px #955;	
+	border:solid 0px #955;	
 }
 div#edrnlogo h1 {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -126,7 +126,7 @@ div#edrnlogo h1 {
 	text-align:left;
 	width:974px;
 	font-size:31px;
-	font-weight:normal;
+	font-weight:bold;
 }
 div#edrnlogo h2 {
 	margin:-10px auto 16px auto;
