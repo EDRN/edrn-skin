@@ -19,8 +19,8 @@
 	<br class="clr"/>
 
 	<div id="edrnlogo">
-		<h1><img id="edrnlogo-logo" src="<?php echo SITE_ROOT?>/static/edrn-skin/img/edrn-logo.png"/>Early Detection Research Network</h1>
-		<h2>Research and development of biomarkers and technologies for the clinical application of early cancer detection strategies</h2>
+		<h1  class="header-title"><img id="edrnlogo-logo" src="<?php echo SITE_ROOT?>/static/edrn-skin/img/edrn-logo.png"/>Early Detection Research Network</h1>
+		<h2  class="header-title">Research and development of biomarkers and technologies for the clinical application of early cancer detection strategies</h2>
 	</div>
 	<div id="dcplogo">
 		<h2 class="dcplogo"><a href="http://prevention.cancer.gov">Division of Cancer Prevention</a></h2>
@@ -32,7 +32,7 @@
 	<div class="menu">
 		<!-- Breadcrumbs Area -->
 		<div id="breadcrumbs"/>
-			<ul><li>Home</li></ul>
+			<ul><li><a href="<?php echo SITE_ROOT?>/">Home</a></li></ul>
 		</div><!-- End Breadcrumbs -->
 	</div>
 	
