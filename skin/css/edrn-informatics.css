@@ -67,6 +67,7 @@ h2.dcplogo {
 div#page, div#footer {
 	width:974px;	
 	margin:0px auto;
+	position:relative;
 }
 
 /**
