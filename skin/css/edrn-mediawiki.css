@@ -27,6 +27,10 @@ h1#firstHeading {
 	border:none;
 }
 
+#toc {
+	float:right;
+	margin-left:5px;
+}
 
 #p-logo {
 	display:none; 			/* edrn has its own header */
