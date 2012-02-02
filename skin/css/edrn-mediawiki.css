@@ -21,6 +21,7 @@ h1#firstHeading {
 }
 
 #content {
+	position:relative;
 	padding: 0 1em 1em 12.2em;
 	margin: 0;
 	border:none;
@@ -32,30 +33,44 @@ h1#firstHeading {
 }
 
 #column-one {
-	padding-top:20px;
+	padding-top:0px;
+	position:absolute;
+	top:50px;
 }
 
 #p-personal {
-	margin-top:-5px;		/* replace the edrn-skin login details*/
+	margin-top:-30px;		/* replace the edrn-skin login details*/
 	z-index:10;
 }
 #p-personal ul {
 	padding-right:0em;		/* align things with the page rhs */
+	padding-left:2em;
 }
 
-#p-db, #p-navigation, #p-tb  {
+#p-search, #p-navigation, #p-tb  {
 	position:relative;
 	z-index:10;			/* show the portlets above the page */
+	top:0px;
+	left:0px;
+}
+
+#p-navigation {
+	padding-top:15px;
 }
 
 #p-cactions .pBody {
 	position:absolute;
 	left:0px;
-	top:3px;
+	top:10px;
 	z-index:10;
-	margin-top:55px;
+	margin-top:0px;
 	font-size:90%;
 }
+
+#p-personal {
+	margin-left:40px;
+}
+
 #p-navigation {
 	margin-top:0px;
 }
